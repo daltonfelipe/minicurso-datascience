@@ -1,0 +1,11 @@
+\babel@toc {brazil}{}
+\beamer@sectionintoc {2}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
+\beamer@subsectionintoc {2}{1}{O que \IeC {\'e} ci\IeC {\^e}ncia dos dados?}{3}{0}{1}
+\beamer@sectionintoc {3}{Justificativa}{4}{0}{2}
+\beamer@subsectionintoc {3}{1}{Porqu\IeC {\^e} aprender Python?}{4}{0}{2}
+\beamer@sectionintoc {4}{Objetivos}{7}{0}{3}
+\beamer@subsectionintoc {4}{1}{Quais os objetivos do curso?}{7}{0}{3}
+\beamer@sectionintoc {5}{Metodologia}{10}{0}{4}
+\beamer@subsectionintoc {5}{1}{Metodologia do curso}{10}{0}{4}
+\beamer@sectionintoc {6}{Conte\IeC {\'u}do}{12}{0}{5}
+\beamer@sectionintoc {8}{Refer\IeC {\^e}ncias}{13}{0}{7}

@@ -1,0 +1,81 @@
+\documentclass[12pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usetheme{Copenhagen}
+\usepackage[brazil]{babel}
+\usepackage{fmtcount}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{booktabs}
+\graphicspath{{figuras/}}
+\usetikzlibrary{graphs}
+\usepackage{ragged2e}
+
+
+
+% setas para os diagramas
+\tikzset{%
+	>=latex, %melhor aparência para as setas
+	inner sep=0pt,outer sep=0pt, %sem separação entre os nós
+}
+
+
+% numeracao dos slides
+\expandafter
+\def
+\expandafter
+\insertshorttitle
+\expandafter{%
+	\insertshorttitle
+	\hfill%
+		\insertframenumber
+	\,/\,
+	\inserttotalframenumber
+}
+
+% 
+\begin{document}
+	\author{Dalton Felipe, Yasmin Braga}
+	\title{\large Introdução à Ciência dos dados com Python}
+	\logo{
+		\includegraphics[width=0.97 cm]{sc_logo}
+		\includegraphics[width=1.17 cm]{labic}
+		\includegraphics[width=0.8 cm]{brasao_ufopa}
+	}
+	%\subtitle{\large (Aula 01)}
+	\institute{\large III Semana Cetec}
+	%\date{}
+	
+	% slide principal
+	\begin{frame}[plain]
+		\centering
+		\includegraphics[width=1.5cm]{figuras/brasao_ufopa.jpg}
+		\\Universidade Federal do Oeste do Pará
+		\\Instituto de Engenharia e Geociências
+		\\Programa de Ciência e Tecnologia
+		
+		\maketitle
+	\end{frame}
+
+	% sumario
+	\section[]{}
+	\begin{frame}{Sumário}
+		\tableofcontents
+	\end{frame}
+	
+	% importa os slides do arquivo slides.tex
+	\include{slides}
+	
+	\section{Referências}
+	\begin{frame}{Referências}
+		\bibliography{referencias}
+		\bibliographystyle{plain}
+	\end{frame}
+
+	
+	\begin{frame}
+		\centering
+		\huge{FIM}
+	\end{frame}
+
+\end{document}
